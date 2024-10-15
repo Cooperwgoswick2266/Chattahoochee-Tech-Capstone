@@ -1,0 +1,100 @@
+                            /*body CSS begins*/
+                            /*The body CSS should not be modified much at all.
+                            this CSS file is only for the frame/viewport of the site*/
+                            
+body{
+    background-color:white;
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0px;
+    min-height:100%;
+    padding:0px;
+    width:100%;
+}
+
+main{
+    min-height: calc(100vh - 211px - 58px);
+}
+                            /*body CSS ends*/
+                            /*navbar CSS begins*/
+.navbar-custom{
+    background-color:#0c2c56;
+}
+.navbar-custom a,ul,li{
+    color: lightgray;
+    font-size:18px;
+    margin: 0px 0px;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 2px;
+}
+.search-bar-wrapper{
+    width:900px;
+    margin-top: 4px;
+}
+.search-bar{
+    width:100%;
+    height:35px;
+    border-radius: 5px;
+    padding: 4px;
+    margin-top: 4px
+}
+.logo_wrapper{
+    width:130px;
+}
+.logo{
+    width:130px;
+}	
+                            /*navbar CSS ends*/
+                            /*Footer CSS begins*/
+.footer{												/*footer begins*/
+	background-color:#0c2c56;
+        font-style: italic;
+        font-size: 1em;
+	color:white;
+	display: flex;
+	flex-wrap: wrap;
+	min-height:150px;
+	overflow:hidden;
+        position:absolute;
+	width:100%;      
+}
+.footer a{
+	text-decoration:none;
+}
+.footer a:visited{
+	color:white;
+	text-decoration:none;
+}
+footer li{
+    padding-right: 10px;
+}
+.signature{
+	flex: auto;
+	float:left;
+	height:auto;
+	padding: 0px 20px 20px 20px;
+}
+.signature p{
+	font-size:10px;
+}
+.signature h2{
+	font-size:40px;
+        font-family: Impact, Charcoal, sans-serif;
+}
+.contactcontainer{
+	flex: auto;
+	padding: 45px 20px;
+}
+.contact{
+	border: 2px solid white;
+        font-variant-caps:  titling-caps;
+	color: white;
+	float:right;
+	font-size:18px;
+	padding: 14px 20px;
+	text-decoration: none;
+}
+.contactbutton a:hover{
+	color:lightgray;
+}
+                            /*Footer CSS ends*/												/*Footer ends*/
